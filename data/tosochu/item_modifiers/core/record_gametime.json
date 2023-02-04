@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "tosochu:temp"
+      },
+      "ops": [
+        {
+          "source": "CurrentGametime",
+          "target": "LastUsedTime",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  
