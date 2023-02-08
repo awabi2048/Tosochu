@@ -2,13 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",
+      "entity": "this",
       "conditions": {
         "player": [
           {
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "ItemUsed": {
+              "Tosochu.ItemUsed": {
                 "min": 1,
                 "max": 20
               }
@@ -18,7 +19,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{SelectedItem:{tag:{Tosochu:{TriggerRightClick:true}}},Tags:[\"Tosochu.Hunter\"]}"
+              "nbt": "{SelectedItem:{tag:{Tosochu:{TriggerRightClick:true,ID:\"CatchBaton\"}}},Tags:[\"Tosochu.Hunter\"]}"
             }
           }
         ]
