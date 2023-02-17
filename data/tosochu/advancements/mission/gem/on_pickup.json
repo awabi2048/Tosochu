@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"Tosochu.Escaper\"]}"
+          },
+          "entity": {
+            "nbt": "{Tags:[\"Tosochu.Mission.GemPickup\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tosochu:mission/gem/on_pickup"
+    }
+  }
+  

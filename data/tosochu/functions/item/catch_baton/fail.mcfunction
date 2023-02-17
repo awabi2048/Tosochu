@@ -3,4 +3,4 @@
 playsound entity.enderman.teleport master @s ~ ~ ~ 1 0.5
 
 # tellraw
-tellraw @s [{"nbt":"Message.Prefix","storage":"tosochu:system","interpret": true},{"nbt":"Message.OnCooldown","storage":"tosochu:system","interpret": true}]
+tellraw @s [{"nbt":"Message.Core.Prefix","storage":"tosochu:system","interpret": true},{"nbt":"Message.Item.OnCooldown","storage":"tosochu:system","interpret": true}]
